@@ -20,6 +20,8 @@ const form = document.getElementById("contactForm");
 const statusText = document.getElementById("formStatus");
 const button = document.getElementById("contactBtn");
 
+// add even lister
+
 if (form) {
   form.addEventListener("submit", async function (e) {
     e.preventDefault();
